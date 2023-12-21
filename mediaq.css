@@ -1,0 +1,276 @@
+@media screen and (max-width: 768px) {
+   #right-nav .custom-button a{
+    font-size: small;
+
+   }
+   .first-box>h1{
+    font-size: 50px;
+    
+  }
+  .first-box-inside1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: a;
+  }
+  .first-box-inside1>button{
+    padding:10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-size: 16px;
+    font-family: b;
+    margin-right: 6vw;
+  }
+  .first-box-inside1>h4{
+    font-size: 10px;
+    font-weight: 100;
+    color: #fff;
+  }
+  #page2>h1{
+    width: 90%;
+    font-weight: 100;
+    line-height: 1.3;
+    font-size: 30px;
+  }
+  #page2>h2{
+    margin-bottom: 3vw;
+    font-weight: 100;
+    color: #fff;
+  }
+  .page3-cir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    height: 50vw;
+    width: 50vw;
+   
+    border-radius: 50%;
+    border: 1px solid #fff;
+  }
+  .page3-cir-small{
+    height: 70%;
+    width: 70%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #fff;
+  }
+  .page3-cir-small>h2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    color: #fff;
+    top: 45%;
+    left: 25%;
+    text-align: center;
+    font-size: 4vw;
+  }
+  .page4-bottom{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    font-family: a;
+    text-align: center;
+  }
+  .page4-bottom>h1{
+    color: #fff;
+   
+    font-size: 40px;
+    font-weight: 100;
+  }
+  .page4-bottom>button{
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #152b8f ;
+    
+  }
+  #page5{
+    position: relative;
+    height: 100vh;
+    width:100vw;
+    background-color: #000000;
+  }
+  #about-us {
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    justify-content: space-around;
+  }
+  #about-us img {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  #about-us-in {
+    width: 50%;
+    text-align: center;
+  }
+  #about-us-in h3 {
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #fff;
+    flex-direction: row;
+  }
+  #about-us-in p {
+    font-size: 10px;
+    line-height: 26px;
+    color: #fff;
+    flex-direction: row;
+  }
+  .us:hover{
+    transform: rotate3d(-1, 1, 0, 20deg);
+  }
+  .det{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  #page6{
+    position: relative;
+    height: 110vh;
+    width: 100vw;
+    background-color: #fff;
+    font-family: a;
+  }
+  #page6>h1{
+    text-align: center;
+    font-size: 40px;
+  }
+  #cards-container {
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    position: relative;
+    z-index: 10;
+  }
+  .card {
+    height: 80%;
+    width: 40%;
+    /* background-color: blue; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: all ease 0.6s;
+  }
+  #card1 {
+    background-image: url(/images/sajan.jpg);
+  }
+  #card2 {
+    background-image: url(/images/kumkum.jpg);
+  }
+  #card3 {
+    background-image: url(/images/sudhir.jpg);
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #95c11e;
+  
+   
+    opacity: 0;
+    transition: all ease 0.6s;
+  }
+  .overlay h4 {
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+   
+    margin-bottom: 25px;
+    font-weight: 100;
+  }
+  .overlay p {
+    color: #000;
+    font-size: 8px;
+  }
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  .card:hover {
+    transform: rotate3d(-1, 1, 0, 20deg);
+  }
+  
+  #green-div {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    background: linear-gradient(to left bottom, #119f3a, #ace022);
+  }
+  #green-div h4 {
+    width: 65%;
+    margin-bottom: 150px;
+    color: #000;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  #green-div img {
+    height: 100%;
+    object-fit: cover;
+    width: 14%;
+  }
+  #page7{
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background-color: #000;
+    color: #fff;
+   
+    padding: 6vw 10vw;
+  }
+  #page7>h1{
+    font-size: 10vw;
+    line-height: 1;
+    font-weight: 100;
+    margin-top: 120px;
+    margin-left: 25%;
+  }
+  #page7>button{
+    padding: 18px 30px;
+    border: none;
+    background-color: #0a3cce;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 2vw;
+    margin-left: 25%;
+    font-size: 30px;
+  }
+  .page8-inner>h1{
+    font-size: 3vw;
+    font-weight: 100;
+    position: relative;
+    z-index: 9999;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 30px;
+  }
+  .page8-inner i {
+ font-size: 40px;
+  }
+  }

@@ -1,0 +1,803 @@
+/
+
+.about {
+    position: relative;
+    background: url("../images/jab-transformed.png") no-repeat top center/cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.about h3 {
+    font-size: 3em;
+    margin-bottom: -20px;
+}
+
+.about p {
+    font-size: 1.5em;
+}
+
+.about h3 {
+    text-shadow: 2px 2px 2px #333;
+}
+
+.about p {
+    text-shadow: 2px 2px 2px #333;
+    font-size: 1.8rem;
+}
+
+
+/* About section ends */
+
+
+/* Image gallery starts */
+
+
+/* Image gallery ends */
+
+
+/* Stakeholders start */
+
+.people {
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+.stakeholders {
+    margin: 2rem auto;
+    max-width: 1100px;
+}
+
+.stakeholders img {
+    border-radius: 0.6rem;
+}
+
+.persons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 1rem;
+}
+
+.name {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.role {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+/* Stakeholders ends */
+
+
+/* Subscription form starts */
+
+.sub {
+    margin-top: 2rem;
+    height: 10vh;
+}
+
+.sub h3 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin: 0.4rem 2rem;
+}
+
+.email-sub {
+    padding: 0.2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+.email-sub:focus {
+    border: 1px solid var(--secondary-color);
+    outline: none;
+}
+
+.submit-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.3rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #095cf7 !important;
+}
+
+
+/* Subscription form ends */
+
+
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #f1f1f1;
+    box-shadow: 0px -2px 3px #f1f1f1;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+
+/* Scroll to top button ends */
+.scroll-up {
+    position: fixed;
+     left: 0.5%; 
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    ul {
+        background-color: #fff;
+        flex-direction: column;
+        position: fixed;
+        left: 100%;
+        top: 5rem;
+        width: 100%;
+        text-align: center;
+    }
+    ul.active {
+        left: 0;
+    }
+    .nav-item {
+        margin: 2rem 0;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+   
+    .btn {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+    iframe {
+        max-width: 26rem !important;
+    }
+    .stand-1 {
+        left: 170px;
+    }
+    .stand-2 {
+        left: 225px;
+    }
+    .about {
+        text-align: center;
+    }
+    .persons {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .service-box{
+        margin-bottom: 150px;
+    }
+    #move{
+        animation: none !important;
+
+    }
+    #quote{
+        animation: none !important;
+
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+   
+  
+    iframe {
+        max-width: 330px !important;
+    }
+    .stand-1 {
+        left: 140px;
+    }
+    .stand-2 {
+        left: 195px;    }
+
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+    
+}
+
+}
+iframe{
+    align-content: center !important;
+    size: 100% !important;
+}
+.name{
+    font-size: large;
+}
+.heading{
+    color:#1e272e;
+}
+.about{
+    color:#7996ab;
+}
+#cv{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.service-box{
+    text-align: center;
+  }
+
+  .service-box i.fa{
+    color: burlywood;
+    font-size: 70px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+  }
+
+  .section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  
+  
+  .section-head1{
+    text-align: center;
+    color: red;
+    margin-bottom: 40px;
+  }
+
+  .section-head1::after{
+    background-color: lightgreen;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+  }
+  .author{
+    color: rgb(36, 187, 162);
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .author-company{
+    color: rgb(107, 117, 253);
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+ .card-group{
+    margin-top: 120px;
+ }
+ .card-header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    font-weight: 600;
+ }
+
+#quote{
+ 
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    animation: sidemove 15s infinite;
+    text-shadow:none;
+
+}
+#now{
+  
+    text-align: left;
+    height: 190px;
+    font-weight: 500;
+    font-size: 30px;
+  
+    padding-top: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+ 
+
+
+
+
+
+.added img {
+    border-radius: 100%;
+}
+
+
+
+
+
+
+.sign {
+    margin-top: 30px;
+    border-radius: 10%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 19px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+
+
+img.side {
+    margin-left: 170px;
+}
+
+.med {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+#game {
+    margin-bottom: 110px;
+}
+
+#mas {
+    margin-top: 110px;
+}
+
+#col {
+    background-image: linear-gradient(to right, #ff0000, #00ff00);
+    -webkit-background-clip: text; /* Apply the gradient to the text only */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+}
+
+
+  
+.c {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 80px;
+
+  }
+
+.minions {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  }
+
+  .minions img {
+   
+  height: 300px;
+  }
+  
+
+  .slam {
+    background: url('9582.jpg') !important;
+    background-position: center top !important;
+    background-size: cover !important;
+    height: 500px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+  
+    border-radius: 5px; /* Add border radius */
+  }
+  
+
+  .start {
+    font: 800;
+    color: #1e272e;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 40px;
+    padding-top: 150px;
+  }
+  body.dark .start{
+      color:white;
+  }
+  
+  
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .slam {
+      height: 300px !important;
+       /* background-size:  !important; */
+       margin-top:55px;
+    }
+  
+    .start {
+      font-size: 30px;
+      padding-left: 20px;
+      padding-top: 50px;
+    }
+  }
+   @media (min-width: 768px) {
+      .slam {
+        
+        background-size: cover !important;
+        /*margin-top: 125px;*/
+      }
+  }
+  .added {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  
+  .hear {
+    font-size: 40px;
+  }
+  
+  .connecting {
+    font-size: 40px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .added {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-size: 16px;
+    }
+  
+    .hear {
+      font-size: 20px;
+    }
+  
+    .connecting {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 767px) {
+    .service-box {
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  @media (max-width: 767px) {
+    section {
+      flex-direction: column;
+    }
+  
+    .one,
+    .eng {
+      flex-basis: 100%;
+    }
+  }
+  .jal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .kall {
+    text-align: center;
+  }
+  
+  .ts {
+    font-size: 30px;
+  }
+  
+  .ho {
+    font-size: 20px;
+  }
+  
+  .edufun {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  @media (max-width: 767px) {
+    .ts {
+      font-size: 20px;
+    }
+  
+    .ho {
+      font-size: 16px;
+    }
+  }
+  
+  .diff {
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  @media (max-width: 767px) {
+    .image-container img {
+      max-width: 100%;
+    }
+  }
+  
+  .stars {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .stars-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .video-wrapper {
+    margin: 10px;
+  }
+  
+  .video-wrapper iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+  }
+  
+  @media (max-width: 767px) {
+    .video-wrapper iframe {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  #testimonials .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .testimonial-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    max-width: 300px;
+    text-align: center;
+  }
+  .cta-section {
+    background-color: #487a9e;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .cta-section h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .btn-signup {
+    display: inline-block;
+    background-color: white;
+    color: #487a9e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-signup:hover {
+    background-color: #f5f5f5;
+  }
+  .sub {
+   
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .sub h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .email-sub {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    display: inline-block;
+    background-color: #487a9e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 767px) {
+    .container {
+      padding: 0 20px;
+    }
+      .social h3 {
+          margin-top:45px;
+          
+    }
+    
+    
+  }
+  .social {
+  
+    padding: 40px 0;
+  }
+  
+  .social h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+  }
+  
+  .social .socicons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social .socicons a {
+    margin: 0 10px;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .social .socicons a:hover {
+    color: #487a9e;
+  }
+  
+  
+  .padd {
+    padding: 20px; /* Add padding as per your design */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .one {
+    margin-bottom: 20px; /* Add margin as per your design */
+  }
+  
+  .tt {
+    font-size: 24px; /* Customize font size */
+  }
+  
+  .gt {
+    font-size: 18px; /* Customize font size */
+  }
+  
+  .eng {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .first {
+    width: 100%; /* Adjust image width as per your design */
+    max-width: 270px; /* Set maximum width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Adjust spacing between photo and content */
+  }
+  
+   .card-header,
+    .card-body {
+      text-align: center;
+    }
+  
+    .cards {
+     
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    }
+  
+    #quote {
+      color: blue;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .blockquote-footer {
+      color: red;
+      font-style: italic;
+      
+    }
+    .card-img-top {
+      width: 100%;
+      height: 200px; /* Adjust the height value as needed */
+      object-fit: cover;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    }
+  
+    @media (max-width: 768px) {
+      .c {
+        flex-direction: column !important;
+        align-items: center;
+      }
+  
+      .cards {
+        width: 80%;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+      }
+    }
+
+  
+ 
+
+  

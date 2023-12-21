@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap') !important;
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap') !important;
+
+body{
+    background-color: antiquewhite !important;
+}
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+h2{
+    text-align: center !important;
+    font-size: xx-large !important;
+}
+
+nav,a{
+    font-family: 'Ubuntu', sans-serif !important;
+    text-decoration: none !important;
+    color: whitesmoke !important;
+}
+
+nav ul{
+    display: flex !important;
+    align-items: center !important;
+    list-style-type: none !important;
+    height: 65px !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+nav ul li{
+    padding: 0 12px !important;
+}
+.brand img{
+    width: 88px !important;
+    padding: 0 8px !important;
+}
+
+.brand {
+    display: flex !important;
+    align-items: center !important;
+    font-weight: bolder !important;
+    font-size: 1.3rem !important;
+}
+
+.container{
+    min-height: 90vh !important;
+    background-color: black !important;
+    color: white !important;
+    font-family: 'Varela Round', sans-serif !important;
+    display: flex !important;
+    margin: 23px auto !important;
+    width: 70% !important;
+    border-radius: 12px !important;
+    padding: 34px !important;
+    background-image: url('bg.jpg') !important;
+    background-position: 100% !important;
+    background-size: contain !important;
+    backface-visibility: inherit !important;
+    background-repeat: no-repeat !important;
+}
+
+.bottom{
+    position: sticky !important;
+    bottom: 0 !important;
+    height: 130px !important;
+    background-color: black !important;
+    color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important; 
+}
+
+.icons{
+    margin-top: 14px !important; 
+}
+.icons i{
+    cursor: pointer !important;
+}
+
+#myProgressBar{
+    width: 80vw !important; 
+    cursor: pointer !important;
+}
+
+.songItemContainer{
+    margin-top: 74px !important;
+}
+
+.songItem{
+    height: 50px !important;
+    display: flex !important;
+    background-color: white !important;
+    color: black !important;
+    margin: 12px 0 !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-radius: 34px !important;
+}
+
+.songItem img{
+    width: 43px !important;
+    margin: 0 23px !important;
+    border-radius: 34px !important;
+}
+
+.timestamp{
+    margin: 0 23px !important;
+}
+
+.timestamp i{
+    cursor: pointer !important;
+}
+
+.songInfo{
+    position: absolute !important;
+    left: 10vw !important;
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+.songInfo img{
+    opacity: 0 !important;
+    transition: opacity 0.4s ease-in !important;
+}
+.brand{
+    color: lightgreen !important;
+}
+.a{
+    color: red !important;
+}
